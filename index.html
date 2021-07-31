@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>MCQ Test</title>
+  <link rel="icon" href="https://cdn.glitch.com/c3061c11-9d8b-4bd0-aad3-43fdc4f6f292%2Fhead.png?v=1564321562229">
+
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body class="rellax" data-rellax-speed="20">
+
+  <!-- <div class="ui segmentlogo" >
+  <img class="ui centered image" src="https://cdn.glitch.com/c3061c11-9d8b-4bd0-aad3-43fdc4f6f292%2Flogo.png?v=1564324126412" alt="Skillmithra">
+</div> -->
+
+  <div class="ui raised very padded text container segment blue main rellax" data-rellax-speed="1">
+
+    <!-- Head section -->
+
+    <h2 class="ui huge teal header">
+      <img src="https://cdn.glitch.com/c3061c11-9d8b-4bd0-aad3-43fdc4f6f292%2Fmultichoice.png?v=1564321562673">
+      <div class="content">
+        MCQ Test
+        <div class="sub header">Choose the correct answer from the following question</div>
+      </div>
+    </h2>
+
+    <!-- Progressbar -->
+
+    <div id="progress" class="ui small teal indicating progress">
+      <div class="bar"></div>
+      <div class="label">Progress</div>
+    </div>
+
+    <!-- Question Part -->
+
+    <h2 class="ui red header">Question:</h2>
+    <div class="ui raised segment">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+        aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </p>
+    </div>
+
+    <!-- Radio Buttons -->
+
+    <div class="ui form">
+      <div class="grouped fields">
+        <label>
+          <h2 class="ui green header">Answer : </h2>
+        </label>
+        <div class="field">
+          <div class="ui checked checkbox">
+            <input type="radio" name="radio">
+            <label>Option A</label>
+          </div>
+        </div>
+        <div class="field">
+          <div class="ui checked checkbox">
+            <input type="radio" name="radio">
+            <label>Option B</label>
+          </div>
+        </div>
+        <div class="field">
+          <div class="ui checked checkbox">
+            <input type="radio" name="radio">
+            <label>Option C</label>
+          </div>
+        </div>
+        <div class="field">
+          <div class="ui checked checkbox">
+            <input type="radio" name="radio">
+            <label>Option D</label>
+          </div>
+        </div>
+        <button type="submit" id="submit" class="ui teal fluid button">Submit</button>
+      </div>
+    </div>
+
+    <!-- Statistics -->
+
+    <div class="ui raised teal segment bottom">
+      <div class="ui large compact menu">
+        <a class="item">
+          <i class="check circle icon"></i>Question Answered
+          <div class="floating ui green label">5</div>
+        </a>
+        <a class="item">
+          <i class="sign out alternate icon"></i>Questions Skipped
+          <div class="floating ui yellow label">1</div>
+        </a>
+        <a class="item">
+          <i class="edit icon"></i> Questions Remaining
+          <div class="floating ui olive label">15</div>
+        </a>
+
+      </div>
+    </div>
+
+
+    <!-- Next-Prev -->
+
+    <div class="foot">
+
+      <div class="ui teal animated button" tabindex="0">
+        <div class="visible content">Previous</div>
+        <div class="hidden content">
+          <i class="left arrow icon"></i>
+        </div>
+      </div>
+      <div id="next" class="ui teal animated button" tabindex="0">
+        <div class="visible content"> Next </div>
+        <div class="hidden content">
+          <i class="right arrow icon"></i>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.10.0/rellax.min.js" charset="utf-8"></script>
+  <script src="index.js" charset="utf-8"></script>
+</body>
+
+</html>

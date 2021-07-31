@@ -1,0 +1,66 @@
+body {
+  background-image: url("https://cdn.glitch.com/c3061c11-9d8b-4bd0-aad3-43fdc4f6f292%2F13390.jpg?v=1564335110819");
+  height: 85rem;
+}
+
+/* .logo{
+  justify-content: center;
+  text-align: center;
+} */
+.main {
+  position: relative;
+  top: 10rem;
+  z-index: 3;
+  opacity: 0.9;
+}
+
+.ui.raised.segment{
+    transition: .3s ease-in-out;
+}
+.ui.raised.segment:hover{
+  transform: scale(1.05);
+}
+
+.field{
+  transition: .3s ease-in-out;
+}
+.field:hover{
+  transform: scale(1.05);
+}
+
+#submit {
+  position: relative;
+  top: 1.5rem;
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.3);
+}
+
+.bottom{
+  position: relative;
+  top: 3.5rem;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.menu{
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+#stat {
+  position: relative;
+  justify-content: center;
+  text-align: center;
+  padding-top: 3rem;
+}
+
+#next {
+  position: absolute;
+  right: 3.2rem;
+}
+
+.foot {
+  padding-top: 5rem;
+}
