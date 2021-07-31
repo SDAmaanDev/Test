@@ -27,21 +27,6 @@ body {
 .field:hover{
   transform: scale(1.05);
 }
-
-#submit {
-  position: relative;
-  top: 1.5rem;
-  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.3);
-}
-
-.bottom{
-  position: relative;
-  top: 3.5rem;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
-}
-
 .menu{
   position: relative;
   display: flex;
