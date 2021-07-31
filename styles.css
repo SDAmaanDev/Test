@@ -33,19 +33,6 @@ body {
   flex-wrap: wrap;
 
 }
-
-#stat {
-  position: relative;
-  justify-content: center;
-  text-align: center;
-  padding-top: 3rem;
-}
-
-#next {
-  position: absolute;
-  right: 3.2rem;
-}
-
 .foot {
   padding-top: 5rem;
 }
